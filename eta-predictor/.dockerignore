@@ -1,0 +1,36 @@
+# Python bytecode — compiled at runtime, no need to copy into image
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment — the Dockerfile creates its own .venv in the builder stage
+.venv/
+
+# Git history — not needed in the image, adds unnecessary size
+.git/
+.gitignore
+
+# Documentation — not needed at runtime
+*.md
+docs/
+
+# Tests — not needed in the production image
+tests/
+
+# MLflow run artifacts — large, populated at runtime not build time
+mlruns/
+mlflow-artifacts/
+
+# Training data — large CSV files, not needed by the API
+data/
+
+# Environment files — secrets must never be baked into an image
+.env
+.env.*
+
+# IDE / OS files
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db

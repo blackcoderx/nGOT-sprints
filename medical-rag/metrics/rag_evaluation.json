@@ -1,0 +1,49 @@
+{
+  "results": [
+    {
+      "question": "What is the first-line treatment for uncomplicated...",
+      "category": "factual",
+      "precision": 0.25,
+      "latency_ms": 8918.0,
+      "num_sources": 3,
+      "passed": false
+    },
+    {
+      "question": "What blood pressure should we target in elderly pa...",
+      "category": "factual",
+      "precision": 1.0,
+      "latency_ms": 6517.0,
+      "num_sources": 3,
+      "passed": true
+    },
+    {
+      "question": "How often should HbA1c be measured when diabetes i...",
+      "category": "factual",
+      "precision": 1.0,
+      "latency_ms": 8341.0,
+      "num_sources": 3,
+      "passed": true
+    },
+    {
+      "question": "What drug is used for malaria in the first trimest...",
+      "category": "factual",
+      "precision": 1.0,
+      "latency_ms": 10541.0,
+      "num_sources": 3,
+      "passed": true
+    },
+    {
+      "question": "Why should malaria medication be taken with food?...",
+      "category": "reasoning",
+      "precision": 0.33,
+      "latency_ms": 5513.0,
+      "num_sources": 3,
+      "passed": false
+    }
+  ],
+  "summary": {
+    "avg_precision": 0.716,
+    "avg_latency_ms": 7966.0,
+    "pass_rate": 0.6
+  }
+}

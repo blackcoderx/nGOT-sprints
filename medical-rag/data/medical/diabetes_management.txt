@@ -1,0 +1,44 @@
+TYPE 2 DIABETES MANAGEMENT PROTOCOL
+
+1. DIAGNOSIS
+Fasting plasma glucose (FPG) >= 7.0 mmol/L (126 mg/dL)
+2-hour OGTT >= 11.1 mmol/L (200 mg/dL)
+HbA1c >= 48 mmol/mol (6.5%)
+Random glucose >= 11.1 mmol/L with symptoms
+Confirm with repeat test unless symptoms are present.
+
+2. INITIAL MANAGEMENT
+All patients: lifestyle modification (diet, exercise, weight loss) from diagnosis.
+Metformin is first-line pharmacotherapy unless contraindicated.
+Metformin dosing: 500mg twice daily with meals. Increase by 500mg weekly to
+2000mg/day.
+Contraindications: eGFR < 30 mL/min/1.73m2, active liver disease, alcohol excess.
+
+3. INTENSIFICATION — ADD SECOND AGENT IF HbA1c NOT AT TARGET AFTER 3 MONTHS
+SGLT2 inhibitor (Empagliflozin, Dapagliflozin): add if CVD, heart failure, or CKD.
+Also promotes weight loss.
+GLP-1 agonist (Semaglutide, Dulaglutide): best for weight reduction and CVD risk.
+Weekly injection.
+DPP-4 inhibitor (Sitagliptin): weight-neutral, safe in elderly.
+Sulfonylurea (Glibenclamide): inexpensive but causes hypoglycaemia and weight gain.
+
+4. INSULIN THERAPY
+Start when HbA1c > 10% at diagnosis, or when oral agents fail.
+Starting insulin: Basal insulin (NPH or Glargine) 10 units at bedtime, titrate by 2
+units every 3 days.
+Self-monitoring of blood glucose (SMBG): 4-7x per day when starting insulin.
+
+5. MONITORING SCHEDULE
+HbA1c: every 3 months until stable target reached, then every 6 months.
+Fasting glucose: at each visit.
+Foot examination: annually (check sensation, pulses, skin integrity).
+Eye examination (fundoscopy or retinal photography): annually.
+Kidney function (eGFR + urine ACR): annually.
+BP and lipids: at each visit.
+
+6. TARGET GLYCAEMIC CONTROL
+HbA1c target: < 53 mmol/mol (7%) for most patients.
+Relaxed target HbA1c < 64 mmol/mol (8%): elderly, frail, multiple comorbidities,
+short life expectancy.
+Tight target HbA1c < 48 mmol/mol (6.5%): younger patients, short disease duration,
+no CVD.

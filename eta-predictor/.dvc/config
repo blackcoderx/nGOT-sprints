@@ -1,0 +1,4 @@
+[core]
+    remote = workshop-remote
+['remote "workshop-remote"']
+    url = C:/Users/ITECH~1/AppData/Local/Temp/dvc-workshop-remote

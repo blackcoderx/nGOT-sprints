@@ -1,0 +1,58 @@
+schema: '2.0'
+stages:
+  generate_data:
+    cmd: poetry run python scripts/generate_data.py
+    deps:
+    - path: scripts/generate_data.py
+      hash: md5
+      md5: 1be00ce8f996b1de3f9c48ecffbf1244
+      size: 4516
+    outs:
+    - path: data/raw/logistics_eta.csv
+      hash: md5
+      md5: abcf84b162ab781bd3842a0ed8ae20f7
+      size: 939290
+  preprocess:
+    cmd: poetry run python scripts/preprocess.py
+    deps:
+    - path: data/raw/logistics_eta.csv
+      hash: md5
+      md5: abcf84b162ab781bd3842a0ed8ae20f7
+      size: 939290
+    - path: scripts/preprocess.py
+      hash: md5
+      md5: 95e0e6bf989bb14e843da30efd35545e
+      size: 2598
+    outs:
+    - path: data/processed/train.csv
+      hash: md5
+      md5: 424d5243921eef0d5b1cee6eccfe4f6f
+      size: 988122
+    - path: data/processed/val.csv
+      hash: md5
+      md5: f9a5e1f33f8373caf65c435c643f280a
+      size: 247199
+  train:
+    cmd: poetry run python scripts/train.py
+    deps:
+    - path: data/processed/train.csv
+      hash: md5
+      md5: 424d5243921eef0d5b1cee6eccfe4f6f
+      size: 988122
+    - path: data/processed/val.csv
+      hash: md5
+      md5: f9a5e1f33f8373caf65c435c643f280a
+      size: 247199
+    - path: scripts/train.py
+      hash: md5
+      md5: c2ad614d90bbebf82d441156089d13e1
+      size: 13083
+    outs:
+    - path: metrics/scores.json
+      hash: md5
+      md5: 50ee3ab5756474b3075dc158f5e52512
+      size: 71
+    - path: models/eta_model_latest.joblib
+      hash: md5
+      md5: 5b73a860be29fc85e9f0f729ad4bab59
+      size: 494993

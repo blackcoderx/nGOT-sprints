@@ -1,0 +1,52 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+.hypothesis/
+
+# MLflow
+mlruns/
+mlflow-artifacts/
+mlflow.db
+mlflow_plots/
+
+# Models (built artifacts)
+models/*.joblib
+!models/.gitkeep
+
+# Data (raw - optionally track small samples only)
+data/raw/*.csv
+data/processed/*.csv
+data/processed/*.parquet
+
+# Temporary files
+notes.txt
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.venv/
+venv/
+ENV/
+
+# Docker
+docker-compose.override.yml
+
+models

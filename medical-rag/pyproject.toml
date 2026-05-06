@@ -1,0 +1,31 @@
+[project]
+name = "medical-rag"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "emmanuelziggah",email = "ziggahemmanuel99@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11, <4.0"
+dependencies = [
+    "python-dotenv (>=1.2.2,<2.0.0)",
+    "openai (>=2.33.0,<3.0.0)",
+    "pinecone-client (>=6.0.0,<7.0.0)",
+    "fastapi (>=0.136.1,<0.137.0)",
+    "uvicorn[standard] (>=0.46.0,<0.47.0)",
+    "llama-index (>=0.14.21,<0.15.0)",
+    "llama-index-vector-stores-pinecone (>=0.8.0,<0.9.0)",
+    "pyreadline3 (>=3.5.4,<4.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "medical_rag", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "pytest (>=9.0.3,<10.0.0)"
+]
